@@ -24,21 +24,18 @@ Module SayMyName
         Do
 
             Console.WriteLine("Hey creators can you give me your names? press q to Quit")
-
             userInput = Console.ReadLine()
+            
             If userInput = "Luis" Then
                 Console.WriteLine("hey " & userInput & " G.O.T. AKA (Greatest Of All Time) Man, the big cheese todays the day you accomplish all!")
-
             ElseIf userInput = "Joe" Then
-
                 Console.WriteLine("hey  " & userInput & " your ok?")
             ElseIf userInput = "Emily" Then
-
                 Console.WriteLine("hey " & userInput & " you will tak the world by storme!")
-            ElseIf userInput <> "Luis" And userInput <> "Joe" And userInput <> "Emily" Then
-
+            Else
                 Console.WriteLine("Be gone  " & userInput & "pst...... take joe with you!")
             End If
+            
             Console.ReadLine()
             Console.Clear()
 
